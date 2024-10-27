@@ -13,20 +13,27 @@
 <div id="maincontent">
 
 <h2>Getting Set Up</h2>
-<h3>Install info</h3>
-<p>Install info</p>
+<h3>Installation</h3>
+<p>Before you can use Git with your Visual Studio Code you must first install both programs. First, download Visual Studio Code or VS Code following the instructions here: <a href="https://code.visualstudio.com/docs/setup/setup-overview">Setting up Visual Studio Code</a> downloading the application for your system will allow you to code and connect to the Git systems. There are different versions of Git based on what operating system you are using, follow the instructions found here: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git - Installing Git</a> to download Git for your System. Be sure to select VS Code when setting up Git.</p>
 <h3>Configure Git in Visual Studio Code</h3>
-<p>config info</p>
+<p>Create a Git hub account here: <a href="https://github.com/">GitHub.com</a> . Launch VS Code and go down to the bottom left icon of a person, then go to backup and Sync settings. Sync your Git hub account to your VS Code, now the two are connected.</p>
 
-<h2>creating and cloneing Respostorys</h2>
-<p>define a repository</p>
+<h2>Creating and Cloning Repositories</h2>
+<p>Repositories are storage spaces for your files, they hold project files, track changes and allow multiple users to collaborate on a project as well as manage different versions of your files.</p>
 <h3>Creating a Repository</h3>
-<p>createing info</p>
-<h3>cloneing a repository</h3>
-<p>cloneing info</p>
+<p>On <a href="https://github.com/">GitHub.com</a> click on your account and select “Your Repositories”, Then click the “NEW” button. </p>
+<p>Note: if you wish to host the files on Git Pages name the file “username.github.io/” substituting your username for the link. And make sure the repository is set to “Public”.</p>
+<h3>Cloning a Repository</h3>
+<p>After connecting Git, In VS Code on the welcome page under “Start” section click “Clone Git Repository…” at the top click “Clone from GitHub” then name of the repository you want to use. If there are no files in it yet it will notify you and that’s okay.</p>
 
-<h2>Git operations in VS Code</h2>
-<p>info about operations</p>
+<h2>Git Operations in VS Code</h2>
+<p>git status: a command that shows the state of the working directory and staging area, this command is used to understand the state of your files before committing them. In VS Code the Source Control Panel shows most of this information.</p>
+<p>git add: This command moves a file to the staging area, a midpoint between your edited files and committing them to the repository. In VS Code in the “Source Control” panel under changes, hover over your edited file and click the “+” to add them to the staging area.</p>
+<p>git commit: This publishes your edited files to the repository. In VS Code in the “Source Control” panel the blue “Commit” button runs this command.</p>
+<p>git push: this command uploads local repository content to a remote repository. In VS Code we are using a cloned, now local, repository and then pushing those changes to the remote version hosted by Git. </p>
+<p>git pull: works the opposite of “git push”. This command downloads any changes in the remote repository to your local repository. When working with multiple users it is important to make sure you’re working with up-to-date files. In VS Code in the top of the “Source Control” dropdown the “…” button allows you to select the pull command.</p>
+
+
 
 <h2>Useing Brances</h2>
 <p>define branches</p>
