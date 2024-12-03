@@ -1,4 +1,5 @@
 h2 {
+    color: rgb(74, 87, 62);
 text-align: center;
 padding-top: 5vw;
 margin-left: 5vw;
@@ -11,8 +12,8 @@ margin-right: 5vw;
 }
 h1 {
     
-    
-padding-top: 1vw;
+    color: rgb(74, 87, 62);
+
     text-align: center;
 }
 p{
@@ -26,6 +27,8 @@ background-color: beige;
     margin-left: 10vw;
     margin-top: 2vw;
     padding-bottom: 50px;
+    border: 5px solid  rgb(214, 214, 190);
+    filter: drop-shadow(3px 8px 5px rgb(109, 109, 63));
 }
 body { 
 
@@ -35,14 +38,30 @@ background-color: rgb(74, 87, 62);
 #topnav {
 background-color: beige;
 height: 5vw;
-
+border: 5px solid  rgb(214, 214, 190);
 }
 #foot {
-
+    border: 5px solid  rgb(214, 214, 190);
     background-color: beige;
     height: 10vw;
 }
 #logo {
  float: left;
  
+}
+#git1,#git5  {
+    margin-left: 5vw;
+margin-right: 10vw;
+border: 5px solid  rgb(74, 87, 62);
+filter: drop-shadow(8px 3px 10px rgb(74, 87, 62));
+    float: right;
+}
+#git2,#git3,#git4 {
+display: block;
+    margin: auto;
+    border: 5px solid  rgb(74, 87, 62);
+    filter: drop-shadow(8px 3px 10px rgb(74, 87, 62));
+}
+#lasthead {
+    margin-top: 5vw;
 }
